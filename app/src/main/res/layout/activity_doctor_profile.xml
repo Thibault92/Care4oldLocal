@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <TextView
+        android:id="@+id/titre_profil_medecin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/title_activity_doctor_profile"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#006699"
+        android:paddingBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/recherche_patient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titre_profil_medecin"
+        android:text="@string/recherche_patient"
+        android:textSize="20sp"
+        android:textColor="#b5000000" />
+
+
+    <AutoCompleteTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/autocomplete_patient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/recherche_patient"/>
+
+    <LinearLayout
+        android:id="@+id/actions_profil_medecin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/autocomplete_patient"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/find_patient"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="12sp"
+            android:text="@string/find_patient" />
+
+        <Button
+            android:id="@+id/doctorDeconnexion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/profileDeconnexion"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/patients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/actions_profil_medecin"
+        android:text="@string/patients"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#006699"
+        android:paddingBottom="10dp"/>
+
+    <ListView
+        android:id="@+id/liste_de_patients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/patients">
+    </ListView>
+
+</RelativeLayout>

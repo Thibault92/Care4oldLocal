@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleProfilePatient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/titleProfilePatient"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#006699"/>
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fillViewport="true"
+        android:scrollbars="vertical" >
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/profileTextDoctor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileTextDoctor"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileDoctor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/profileTextDoctor"
+                android:layout_toEndOf="@+id/profileTextDoctor"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/profileToDoctor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileDoctor"
+                android:text="@string/profileToDoctor"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/ProfilePatientInfos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileToDoctor"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="6dp"
+                android:text="@string/infosProfilePatient"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#006699"/>
+
+            <TextView
+                android:id="@+id/profileTextName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ProfilePatientInfos"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/familyName"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileFirstName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ProfilePatientInfos"
+                android:layout_toRightOf="@+id/profileTextName"
+                android:layout_toEndOf="@+id/profileTextName"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ProfilePatientInfos"
+                android:layout_toRightOf="@+id/profileFirstName"
+                android:layout_toEndOf="@+id/profileFirstName"
+                android:paddingRight="4dp"
+                android:paddingLeft="4dp"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileTextGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileLastName"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileTextGender"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileLastName"
+                android:layout_toRightOf="@+id/profileTextGender"
+                android:layout_toEndOf="@+id/profileTextGender"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileTextBirthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileGender"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/birthday"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileBirthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileGender"
+                android:layout_toEndOf="@+id/profileTextBirthday"
+                android:layout_toRightOf="@+id/profileTextBirthday"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileTextAdress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileBirthday"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/address"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileAdress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileBirthday"
+                android:layout_toRightOf="@+id/profileTextAdress"
+                android:layout_toEndOf="@+id/profileTextAdress"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileTextPhones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileAdress"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileTextPhones"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profilePhones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileAdress"
+                android:layout_toRightOf="@+id/profileTextPhones"
+                android:layout_toEndOf="@+id/profileTextPhones"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileTextPhoneEmergency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profilePhones"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileTextEmergency"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profilePhoneEmergency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profilePhones"
+                android:layout_toRightOf="@+id/profileTextPhoneEmergency"
+                android:layout_toEndOf="@+id/profileTextPhoneEmergency"
+                android:textColor="#FF0000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileTextResidence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profilePhoneEmergency"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/residency"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileResidence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profilePhoneEmergency"
+                android:layout_toRightOf="@+id/profileTextResidence"
+                android:layout_toEndOf="@+id/profileTextResidence"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileTextHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileResidence"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileDomicileHelp"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileResidence"
+                android:layout_toRightOf="@+id/profileTextHome"
+                android:layout_toEndOf="@+id/profileTextHome"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileTextFinance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileHome"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileFinancial"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileFinance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileHome"
+                android:layout_toRightOf="@+id/profileTextFinance"
+                android:layout_toEndOf="@+id/profileTextFinance"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ProfilePatientTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileFinance"
+                android:text="@string/testProfilePatient"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="6dp"
+                android:textColor="#006699"/>
+
+            <TextView
+                    android:id="@+id/profileNorton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ProfilePatientTest"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/profileTest_Norton"
+                    android:textColor="#0000FF"
+                    android:textStyle="bold"
+                    android:clickable="true" />
+
+                <TextView
+                    android:id="@+id/Resultat_Norton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ProfilePatientTest"
+                    android:layout_toRightOf="@+id/profileNorton"
+                    android:layout_toEndOf="@+id/profileNorton"
+                    android:textStyle="bold"
+                    android:textColor="#b10000"/>
+
+
+                <TextView
+                    android:id="@+id/profileKatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Resultat_Norton"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/profileTest_Katz"
+                    android:textColor="#0000FF"
+                    android:textStyle="bold"
+                    android:clickable="true"/>
+
+                <TextView
+                    android:id="@+id/Resultat_Katz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Resultat_Norton"
+                    android:layout_toRightOf="@+id/profileKatz"
+                    android:layout_toEndOf="@+id/profileKatz"
+                    android:textStyle="bold"
+                    android:textColor="#b10000" />
+
+
+                <TextView
+                    android:id="@+id/profileLawton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Resultat_Katz"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/profileTest_Lawton"
+                    android:textColor="#0000FF"
+                    android:textStyle="bold"
+                    android:clickable="true"/>
+
+                <TextView
+                    android:id="@+id/Resultat_Lawton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Resultat_Katz"
+                    android:layout_toRightOf="@+id/profileLawton"
+                    android:layout_toEndOf="@+id/profileLawton"
+                    android:textStyle="bold"
+                    android:textColor="#b10000"
+                    android:clickable="true"/>
+
+
+                <TextView
+                    android:id="@+id/profileMna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Resultat_Lawton"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/profileTest_MNA"
+                    android:textColor="#0000FF"
+                    android:textStyle="bold"
+                    android:clickable="true"/>
+
+                <TextView
+                    android:id="@+id/Resultat_MNA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Resultat_Lawton"
+                    android:layout_toRightOf="@id/profileMna"
+                    android:layout_toEndOf="@id/profileMna"
+                    android:textStyle="bold"
+                    android:textColor="#b10000" />
+
+
+                <TextView
+                    android:id="@+id/profileFragility"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Resultat_MNA"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/profileTest_Fragility"
+                    android:textColor="#0000FF"
+                    android:textStyle="bold"
+                    android:clickable="true"/>
+
+                <TextView
+                    android:id="@+id/Resultat_Fragility"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Resultat_MNA"
+                    android:layout_toRightOf="@+id/profileFragility"
+                    android:layout_toEndOf="@+id/profileFragility"
+                    android:textStyle="bold"
+                    android:textColor="#b10000" />
+
+            <TextView
+                android:id="@+id/profileTestDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Resultat_Fragility"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileTest_Date"
+                android:textColor="#b5000000"
+                android:textStyle="bold"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/Resultat_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Resultat_Fragility"
+                android:layout_toRightOf="@+id/profileTestDate"
+                android:layout_toEndOf="@+id/profileTestDate"
+                android:textStyle="bold"
+                android:textColor="#b10000" />
+
+            <Button
+                android:id="@+id/Test_Page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Resultat_Date"
+                android:layout_centerInParent="true"
+                android:text="@string/profileMakeTest"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/ProfilePatientMedicalCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Test_Page"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="6dp"
+                android:text="@string/medicalCheckProfilePatient"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#006699"/>
+
+            <TextView
+                android:id="@+id/profileTextHeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ProfilePatientMedicalCheck"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileTextHeight"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileHeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ProfilePatientMedicalCheck"
+                android:layout_toRightOf="@+id/profileTextHeight"
+                android:layout_toEndOf="@+id/profileTextHeight"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileTextWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileHeight"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileTextWeight"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileHeight"
+                android:layout_toRightOf="@+id/profileTextWeight"
+                android:layout_toEndOf="@+id/profileTextWeight"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileTextBMI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileWeight"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileTextBMI"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileBMI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileWeight"
+                android:layout_toRightOf="@+id/profileTextBMI"
+                android:layout_toEndOf="@+id/profileTextBMI"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileTextVitamine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileBMI"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileTextVitamine"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileVitamine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileBMI"
+                android:layout_toRightOf="@+id/profileTextVitamine"
+                android:layout_toEndOf="@+id/profileTextVitamine"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            
+            <TextView
+                android:id="@+id/profileTextCRP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileVitamine"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileTextCRP"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileCRP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileVitamine"
+                android:layout_toRightOf="@+id/profileTextCRP"
+                android:layout_toEndOf="@+id/profileTextCRP"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileTextAlbumin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileCRP"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileTextAlbumin"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileAlbumin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileCRP"
+                android:layout_toRightOf="@+id/profileTextAlbumin"
+                android:layout_toEndOf="@+id/profileTextAlbumin"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileTextDateConsultation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileAlbumin"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileTextDateConsultation"
+                android:textColor="#b5000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileDateConsultation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileAlbumin"
+                android:layout_toRightOf="@+id/profileTextDateConsultation"
+                android:layout_toEndOf="@+id/profileTextDateConsultation"
+                android:textColor="#f0032687"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileTextComorbidities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileDateConsultation"
+                android:paddingRight="4dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileTextComorbidities"
+                android:textColor="#b5000000"
+                android:textStyle="bold"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/profileDateComorbidities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileDateConsultation"
+                android:layout_toRightOf="@+id/profileTextComorbidities"
+                android:layout_toEndOf="@+id/profileTextComorbidities"
+                android:textStyle="bold"
+                android:textColor="#b10000" />
+
+            <TextView
+                android:id="@+id/profilePathologyComorbidities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileDateConsultation"
+                android:layout_toRightOf="@+id/profileDateComorbidities"
+                android:layout_toEndOf="@+id/profileDateComorbidities"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:textStyle="bold"
+                android:textColor="#b10000" />
+
+            <TextView
+                android:id="@+id/profileTextHospitalisation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileTextComorbidities"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileTextHospitalisation"
+                android:textColor="#b5000000"
+                android:textStyle="bold"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/profileDateStartHospitalisation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileTextComorbidities"
+                android:layout_toRightOf="@+id/profileTextHospitalisation"
+                android:layout_toEndOf="@+id/profileTextHospitalisation"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"
+                android:textColor="#b10000" />
+
+            <TextView
+                android:id="@+id/profileDateEndHospitalisation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileTextComorbidities"
+                android:layout_toRightOf="@+id/profileDateStartHospitalisation"
+                android:layout_toEndOf="@+id/profileDateStartHospitalisation"
+                android:textStyle="bold"
+                android:textColor="#b10000" />
+
+            <TextView
+                android:id="@+id/profileTextMotifHospitalisation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileTextHospitalisation"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/profileTexttMotifHospitalisation"
+                android:textColor="#b5000000"
+                android:textStyle="bold"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/profileMotifHospitalisation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileTextHospitalisation"
+                android:layout_toRightOf="@+id/profileTextMotifHospitalisation"
+                android:layout_toEndOf="@+id/profileTextMotifHospitalisation"
+                android:textStyle="bold"
+                android:textColor="#b10000" />
+
+            <Button
+                android:id="@+id/profileToMedicalCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileMotifHospitalisation"
+                android:layout_toLeftOf="@+id/profileToComorbidities"
+                android:layout_toStartOf="@+id/profileToComorbidities"
+                android:text="@string/profileToMedicalCheck"
+                android:layout_marginTop="8dp"
+                android:textSize="10sp"/>
+
+            <Button
+                android:id="@+id/profileToComorbidities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileMotifHospitalisation"
+                android:layout_centerInParent="true"
+                android:text="@string/profileToComorbidities"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:textSize="10sp"/>
+
+            <Button
+                android:id="@+id/profileToHospitalisation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileMotifHospitalisation"
+                android:layout_toRightOf="@+id/profileToComorbidities"
+                android:layout_toEndOf="@+id/profileToComorbidities"
+                android:text="@string/profileToHospitalisation"
+                android:layout_marginTop="8dp"
+                android:textSize="10sp"/>
+
+            <Button
+                android:id="@+id/profileDeconnexion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profileMotifHospitalisation"
+                android:text="@string/profileDeconnexion"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

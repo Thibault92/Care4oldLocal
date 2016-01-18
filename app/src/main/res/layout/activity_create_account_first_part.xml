@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:id="@+id/titre"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:gravity="center"
+            android:text="@string/title_activity_create_account_first_part"
+            android:textStyle="bold"
+            android:textColor="#006699"
+            android:textSize="20sp"/>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/identifiantInscription"
+                android:text="@string/identifiant"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/identifiantInscriptionInput"
+                android:hint="@string/identifiantInput"
+                android:inputType="textPersonName"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/passwordInscription"
+                android:text="@string/password"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/passwordInscriptionInput"
+                android:hint="@string/passwordInput"
+                android:inputType="textPassword"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/confirmationPassword"
+                android:text="@string/confirmationPassword"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/confirmationPasswordInput"
+                android:hint="@string/confirmationPasswordInput"
+                android:inputType="textPassword"/>
+        </TableRow>
+
+        <TextView
+            android:id="@+id/dejaInscrit"
+            android:paddingTop="20dp"
+            android:gravity="center"
+            android:text="@string/dejaInscrit"
+            android:textColor="#0000FF"
+            android:clickable="true"/>
+
+        <TableRow>
+            <LinearLayout
+                android:layout_span="2"
+                android:gravity="center"
+                android:paddingTop="25dp">
+                <Button
+                    android:id="@+id/nextCreation1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/suivant"/>
+                <Button
+                    android:id="@+id/raz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/raz"/>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

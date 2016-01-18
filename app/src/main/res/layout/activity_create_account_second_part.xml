@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:id="@+id/titre"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:gravity="center"
+            android:text="@string/title_activity_create_account_second_part"
+            android:textStyle="bold"
+            android:textColor="#006699"
+            android:textSize="20sp"/>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/name"
+                android:text="@string/familyName"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/familyNameInput"
+                android:hint="@string/familyNameInput"
+                android:inputType="textPersonName"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/firstName"
+                android:text="@string/firstName"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/firstNameInput"
+                android:hint="@string/firstNameInput"
+                android:inputType="textPersonName"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/birthday"
+                android:text="@string/birthday"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/birthdayPicker"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/birthdayPicker"
+                android:textColor="#0000FF"
+                android:clickable="true"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/address"
+                android:text="@string/address"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/addressInput"
+                android:hint="@string/addressInput"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/zip"
+                android:text="@string/zip"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/zipInput"
+                android:hint="@string/zipInput"
+                android:inputType="number"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/city"
+                android:text="@string/city"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/cityInput"
+                android:hint="@string/cityInput"
+                android:inputType="textPersonName"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/homeTel"
+                android:text="@string/homeTel"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/homeTelInput"
+                android:hint="@string/homeTelInput"
+                android:inputType="number"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/mobileTel"
+                android:text="@string/mobileTel"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/mobileTelInput"
+                android:hint="@string/mobileTelInput"
+                android:inputType="number"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/emergencyTel"
+                android:text="@string/emergencyTel"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/emergencyTelInput"
+                android:hint="@string/emergencyTelInput"
+                android:inputType="number"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/userType"
+                android:paddingTop="10dp"
+                android:text="@string/userType"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+            <RadioGroup
+                android:id="@+id/userTypeChoice"
+                android:paddingTop="10dp"
+                android:orientation="vertical"
+                android:checkedButton="@+id/patient">
+                <RadioButton
+                    android:id="@+id/patient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/patient"/>
+                <RadioButton
+                    android:id="@+id/medecin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/medecin"/>
+            </RadioGroup>
+        </TableRow>
+
+        <TableRow>
+            <LinearLayout
+                android:paddingTop="15dp"
+                android:layout_span="2"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/retourCreation2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/retour"/>
+                <Button
+                    android:id="@+id/raz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/raz"/>
+                <Button
+                    android:id="@+id/nextCreation2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/send"/>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

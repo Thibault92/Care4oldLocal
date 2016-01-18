@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <TextView
+        android:id="@+id/title_activity_consult_medical_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/title_activity_consult_medical_check"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#006699"/>
+
+    <TextView
+        android:id="@+id/infosDetaillees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_activity_consult_medical_check"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/infosDetaillees"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#006699"/>
+
+    <TextView
+        android:id="@+id/date_medcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infosDetaillees"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/date_medcheck"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date_medcheck_infos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infosDetaillees"
+        android:layout_toRightOf="@+id/date_medcheck"
+        android:layout_toEndOf="@+id/date_medcheck"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/taille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date_medcheck_infos"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/taille"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tailleInfos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date_medcheck_infos"
+        android:layout_toRightOf="@+id/taille"
+        android:layout_toEndOf="@+id/taille"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/poids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tailleInfos"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/poids"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/poidsInfos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tailleInfos"
+        android:layout_toRightOf="@+id/poids"
+        android:layout_toEndOf="@+id/poids"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/imc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poidsInfos"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/imc"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/imcInfos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poidsInfos"
+        android:layout_toRightOf="@+id/imc"
+        android:layout_toEndOf="@+id/imc"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imcInfos"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/mna"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mnaInfos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imcInfos"
+        android:layout_toEndOf="@+id/mna"
+        android:layout_toRightOf="@+id/mna"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/albuminemie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mnaInfos"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/albuminemie"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/albuminemieInfos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mnaInfos"
+        android:layout_toRightOf="@+id/albuminemie"
+        android:layout_toEndOf="@+id/albuminemie"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/crp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/albuminemieInfos"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/crp"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/crpInfos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/albuminemieInfos"
+        android:layout_toRightOf="@+id/crp"
+        android:layout_toEndOf="@+id/crp"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vitamine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/crpInfos"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/vitd"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vitamineInfos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/crpInfos"
+        android:layout_toRightOf="@+id/vitamine"
+        android:layout_toEndOf="@+id/vitamine"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/diagnostic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vitamineInfos"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/diagnostic"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/diagnosticInfos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vitamineInfos"
+        android:layout_toRightOf="@+id/diagnostic"
+        android:layout_toEndOf="@+id/diagnostic"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/retour_consultation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/diagnosticInfos"
+        android:layout_centerInParent="true"
+        android:text="@string/retour"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+</RelativeLayout>

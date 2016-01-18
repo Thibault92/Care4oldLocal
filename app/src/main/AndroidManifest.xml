@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="isep.project.care4old" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".activity.AccountConnectionActivity"
+            android:label="@string/title_activity_account_connection"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.ComorbiditiesActivity"
+            android:label="@string/title_activity_comorbidities"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.ConsultFragilityActivity"
+            android:label="@string/title_activity_consult_fragility"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.ConsultKatzActivity"
+            android:label="@string/title_activity_consult_katz"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.ConsultLawtonActivity"
+            android:label="@string/title_activity_consult_lawton"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.ConsultMedicalCheckActivity"
+            android:label="@string/title_activity_consult_medical_check"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.ConsultMnaActivity"
+            android:label="@string/title_activity_consult_mna"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.ConsultNortonActivity"
+            android:label="@string/title_activity_consult_norton"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.CreateAccountPatientActivity"
+            android:label="@string/title_activity_create_account_patient"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.CreateAccountFirstPartActivity"
+            android:label="@string/title_activity_create_account_first_part"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.CreateAccountSecondPartActivity"
+            android:label="@string/title_activity_create_account_second_part"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.CreateAccountThirdPartActivity"
+            android:label="@string/title_activity_create_account_third_part"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.DoctorProfileActivity"
+            android:label="@string/title_activity_doctor_profile"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.HospitalizationActivity"
+            android:label="@string/title_activity_hospitalization"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.HospitalizationCreationActivity"
+            android:label="@string/title_activity_hospitalization_creation"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.MedicalCheckActivity"
+            android:label="@string/title_activity_medical_check"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.MedicalCheckCreationActivity"
+            android:label="@string/title_activity_medical_check_creation"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.PatientProfileActivity"
+            android:label="@string/title_activity_patient_profile"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".activity.PatientQuestionnaryActivity"
+            android:label="@string/title_activity_patient_questionnary"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+    </application>
+
+</manifest>

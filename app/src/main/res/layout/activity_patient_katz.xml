@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <TextView
+        android:id="@+id/titleKatzPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/titleKatzPatient"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#006699"/>
+
+    <TextView
+        android:id="@+id/KatzTextHygiene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleKatzPatient"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/KatzTextHygiene"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/KatzHygiene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleKatzPatient"
+        android:layout_toRightOf="@+id/KatzTextHygiene"
+        android:layout_toEndOf="@+id/KatzTextHygiene"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/NortonBareme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleKatzPatient"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:text="@string/Bareme"
+        android:textColor="#006699"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/KatzTextDressing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzHygiene"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/KatzTextDressing"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/KatzDressing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzHygiene"
+        android:layout_toRightOf="@+id/KatzTextDressing"
+        android:layout_toEndOf="@+id/KatzTextDressing"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/KatzTextBathroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzDressing"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/KatzTextBathroom"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/KatzBathroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzDressing"
+        android:layout_toRightOf="@+id/KatzTextBathroom"
+        android:layout_toEndOf="@+id/KatzTextBathroom"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/KatzBareme1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzDressing"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/KatzBareme1"
+        android:textColor="#006699"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/KatzTextIncontinence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzBathroom"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/KatzTextIncontinence"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/KatzIncontinence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzBathroom"
+        android:layout_toEndOf="@+id/KatzTextIncontinence"
+        android:layout_toRightOf="@+id/KatzTextIncontinence"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/KatzBareme2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzBathroom"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/KatzBareme2"
+        android:textColor="#006699"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/KatzTextMobility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzIncontinence"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/KatzTextMobility"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/KatzMobility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzIncontinence"
+        android:layout_toRightOf="@+id/KatzTextMobility"
+        android:layout_toEndOf="@+id/KatzTextMobility"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/KatzTextLunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzMobility"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/KatzTextLunch"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/KatzLunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzMobility"
+        android:layout_toRightOf="@+id/KatzTextLunch"
+        android:layout_toEndOf="@+id/KatzTextLunch"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/KatzTextTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzLunch"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/TextTotal"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/KatzTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzLunch"
+        android:layout_toRightOf="@+id/KatzTextTotal"
+        android:layout_toEndOf="@+id/KatzTextTotal"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/KatzTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzTotal"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/TextDate"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/KatzDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzTotal"
+        android:layout_toRightOf="@+id/KatzTextDate"
+        android:layout_toEndOf="@+id/KatzTextDate"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/KatzBackProfilePatient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzDate"
+        android:layout_centerInParent="true"
+        android:text="@string/backProfilePatient"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+
+    <TextView
+        android:id="@+id/titleListeKatzTests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KatzBackProfilePatient"
+        android:text="@string/listeTests"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#006699"/>
+
+    <ListView
+        android:id="@+id/listeOfKatz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleListeKatzTests">
+    </ListView>
+
+</RelativeLayout>

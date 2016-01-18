@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:id="@+id/title_activity_shop_creation"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:gravity="center"
+            android:text="@string/title_activity_hospitalization_creation"
+            android:textStyle="bold"
+            android:textColor="#006699"
+            android:textSize="20sp"/>
+
+        <TableRow>
+            <TextView
+                android:text="@string/hospStart"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/hospStartText"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:text="@string/date_affichage"
+                android:textColor="#0000FF"
+                android:clickable="true"/>
+
+            <Button
+                android:id="@+id/hospStartButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/choisir_date"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/hospEnd"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/hospEndText"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:text="@string/date_affichage"
+                android:textColor="#0000FF" />
+            <Button
+                android:id="@+id/hospEndButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/choisir_date"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/motif"
+                android:paddingTop="25dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_span="2"
+                android:gravity="center"
+                android:paddingTop="15dp">
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/motifInput"
+                    android:hint="@string/motifInput"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+            <LinearLayout
+                android:layout_span="3"
+                android:gravity="center"
+                android:paddingTop="15dp">
+                <Button
+                    android:id="@+id/retour_hosps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/retour"/>
+                <Button
+                    android:id="@+id/raz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/raz"/>
+                <Button
+                    android:id="@+id/send_hosps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/send"/>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

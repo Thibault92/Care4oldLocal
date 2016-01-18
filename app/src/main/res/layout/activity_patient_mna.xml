@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <TextView
+        android:id="@+id/titleMnaPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/titleMnaPatient"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#006699"/>
+
+    <TextView
+        android:id="@+id/MnaTextAppetite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleMnaPatient"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/MnaTextAppetite"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaAppetite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleMnaPatient"
+        android:layout_toRightOf="@+id/MnaTextAppetite"
+        android:layout_toEndOf="@+id/MnaTextAppetite"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaBareme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleMnaPatient"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="70dp"
+        android:paddingLeft="70dp"
+        android:text="@string/Bareme"
+        android:textColor="#006699"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/MnaTextLooseWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaAppetite"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/MnaTextLooseWeight"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaLooseWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaAppetite"
+        android:layout_toRightOf="@+id/MnaTextLooseWeight"
+        android:layout_toEndOf="@+id/MnaTextLooseWeight"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/MnaTextMotricity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaLooseWeight"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/MnaTextMotricity"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaMotricity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaLooseWeight"
+        android:layout_toRightOf="@+id/MnaTextMotricity"
+        android:layout_toEndOf="@+id/MnaTextMotricity"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaBareme1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaLooseWeight"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/MnaBareme1"
+        android:textColor="#006699"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaTextAcute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaMotricity"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/MnaTextAcute"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaAcute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaMotricity"
+        android:layout_toEndOf="@+id/MnaTextAcute"
+        android:layout_toRightOf="@+id/MnaTextAcute"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaBareme2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaMotricity"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:text="@string/MnaBareme2"
+        android:textColor="#006699"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaTextNeuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaAcute"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/MnaTextNeuro"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaNeuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaAcute"
+        android:layout_toRightOf="@+id/MnaTextNeuro"
+        android:layout_toEndOf="@+id/MnaTextNeuro"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaBareme3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaAcute"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/MnaBareme3"
+        android:textColor="#006699"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaTextBmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaNeuro"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/MnaTextBmi"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaBmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaNeuro"
+        android:layout_toRightOf="@+id/MnaTextBmi"
+        android:layout_toEndOf="@+id/MnaTextBmi"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaTextTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaBmi"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/TextTotal"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/MnaTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaBmi"
+        android:layout_toRightOf="@+id/MnaTextTotal"
+        android:layout_toEndOf="@+id/MnaTextTotal"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaTotal"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/TextDate"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MnaDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaTotal"
+        android:layout_toRightOf="@+id/MnaTextDate"
+        android:layout_toEndOf="@+id/MnaTextDate"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/MnaBackProfilePatient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaDate"
+        android:layout_centerInParent="true"
+        android:text="@string/backProfilePatient"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+
+    <TextView
+        android:id="@+id/titleListeMnaTests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MnaBackProfilePatient"
+        android:text="@string/listeTests"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#006699"/>
+
+    <ListView
+        android:id="@+id/listeOfMna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleListeMnaTests">
+    </ListView>
+
+</RelativeLayout>

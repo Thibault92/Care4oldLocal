@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <TextView
+        android:id="@+id/titleFragilityPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/titleFragilityPatient"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#006699"/>
+
+    <TextView
+        android:id="@+id/FragilityTextHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleFragilityPatient"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/FragilityTextHome"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleFragilityPatient"
+        android:layout_toRightOf="@+id/FragilityTextHome"
+        android:layout_toEndOf="@+id/FragilityTextHome"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityBareme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleFragilityPatient"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:text="@string/Bareme"
+        android:textColor="#006699"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/FragilityTextDrugs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityHome"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/FragilityTextDrugs"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityDrugs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityHome"
+        android:layout_toRightOf="@+id/FragilityTextDrugs"
+        android:layout_toEndOf="@+id/FragilityTextDrugs"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityTextMood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityDrugs"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/FragilityTextMood"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityMood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityDrugs"
+        android:layout_toRightOf="@+id/FragilityTextMood"
+        android:layout_toEndOf="@+id/FragilityTextMood"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityBareme1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityDrugs"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/FragilityBareme1"
+        android:textColor="#006699"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/FragilityTextPerception"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityMood"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/FragilityTextPerception"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityPerception"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityMood"
+        android:layout_toEndOf="@+id/FragilityTextPerception"
+        android:layout_toRightOf="@+id/FragilityTextPerception"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityBareme2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityMood"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/FragilityBareme2"
+        android:textColor="#006699"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityTextFall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityPerception"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/FragilityTextFall"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityFall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityPerception"
+        android:layout_toRightOf="@+id/FragilityTextFall"
+        android:layout_toEndOf="@+id/FragilityTextFall"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityBareme3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityPerception"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/FragilityBareme3"
+        android:textColor="#006699"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityTextResponsability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityFall"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/FragilityTextResponsability"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityResponsability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityFall"
+        android:layout_toRightOf="@+id/FragilityTextResponsability"
+        android:layout_toEndOf="@+id/FragilityTextResponsability"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityTextIllness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityResponsability"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/FragilityTextIllness"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityIllness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityResponsability"
+        android:layout_toRightOf="@+id/FragilityTextIllness"
+        android:layout_toEndOf="@+id/FragilityTextIllness"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityTextMobility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityIllness"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/FragilityTextMobility"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityMobility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityIllness"
+        android:layout_toRightOf="@+id/FragilityTextMobility"
+        android:layout_toEndOf="@+id/FragilityTextMobility"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityTextContinence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityMobility"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/FragilityTextContinence"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityContinence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityMobility"
+        android:layout_toRightOf="@+id/FragilityTextContinence"
+        android:layout_toEndOf="@+id/FragilityTextContinence"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityTextFeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityContinence"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/FragilityTextFeed"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityFeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityContinence"
+        android:layout_toRightOf="@+id/FragilityTextFeed"
+        android:layout_toEndOf="@+id/FragilityTextFeed"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityTextCognitive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityFeed"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/FragilityTextCognitive"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityCognitive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityFeed"
+        android:layout_toRightOf="@+id/FragilityTextCognitive"
+        android:layout_toEndOf="@+id/FragilityTextCognitive"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/FragilityTextTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityCognitive"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/TextTotal"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityCognitive"
+        android:layout_toRightOf="@+id/FragilityTextTotal"
+        android:layout_toEndOf="@+id/FragilityTextTotal"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityTotal"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/TextDate"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/FragilityDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityTotal"
+        android:layout_toRightOf="@+id/FragilityTextDate"
+        android:layout_toEndOf="@+id/FragilityTextDate"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/FragilityBackProfilePatient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityDate"
+        android:layout_centerInParent="true"
+        android:text="@string/backProfilePatient"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+
+    <TextView
+        android:id="@+id/titleListeFragilityTests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragilityBackProfilePatient"
+        android:text="@string/listeTests"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#006699"/>
+
+    <ListView
+        android:id="@+id/listeOfFragility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleListeFragilityTests">
+    </ListView>
+
+</RelativeLayout>

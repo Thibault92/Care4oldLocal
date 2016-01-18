@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <TextView
+        android:id="@+id/titleNortonPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/titleNortonPatient"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#006699"/>
+
+    <TextView
+        android:id="@+id/nortonTextGlobal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleNortonPatient"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/nortonTextGlobal"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nortonGlobal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleNortonPatient"
+        android:layout_toRightOf="@+id/nortonTextGlobal"
+        android:layout_toEndOf="@+id/nortonTextGlobal"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/NortonBareme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleNortonPatient"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="55dp"
+        android:paddingLeft="55dp"
+        android:text="@string/Bareme"
+        android:textColor="#006699"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/nortonTextAgility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonGlobal"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/nortonTextAgility"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nortonAgility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonGlobal"
+        android:layout_toRightOf="@+id/nortonTextAgility"
+        android:layout_toEndOf="@+id/nortonTextAgility"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nortonTextPsychic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonAgility"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/nortonTextPsychic"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nortonPsychic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonAgility"
+        android:layout_toRightOf="@+id/nortonTextPsychic"
+        android:layout_toEndOf="@+id/nortonTextPsychic"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/NortonBareme1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonAgility"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/NortonBareme1"
+        android:textColor="#006699"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/nortonTextIncontinence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonPsychic"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/nortonTextIncontinence"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nortonIncontinence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonPsychic"
+        android:layout_toEndOf="@+id/nortonTextIncontinence"
+        android:layout_toRightOf="@+id/nortonTextIncontinence"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/NortonBareme2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonPsychic"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/NortonBareme2"
+        android:textColor="#006699"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nortonTextMobility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonIncontinence"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/nortonTextMobility"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nortonMobility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonIncontinence"
+        android:layout_toRightOf="@+id/nortonTextMobility"
+        android:layout_toEndOf="@+id/nortonTextMobility"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nortonTextTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonMobility"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/TextTotal"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nortonTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonMobility"
+        android:layout_toRightOf="@+id/nortonTextTotal"
+        android:layout_toEndOf="@+id/nortonTextTotal"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nortonTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonTotal"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/TextDate"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nortonDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonTotal"
+        android:layout_toRightOf="@+id/nortonTextDate"
+        android:layout_toEndOf="@+id/nortonTextDate"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/nortonBackProfilePatient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonDate"
+        android:layout_centerInParent="true"
+        android:text="@string/backProfilePatient"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+
+    <TextView
+        android:id="@+id/titleListeNortonTests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nortonBackProfilePatient"
+        android:text="@string/listeTests"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#006699"/>
+
+    <ListView
+        android:id="@+id/listeOfNorton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleListeNortonTests">
+    </ListView>
+
+</RelativeLayout>

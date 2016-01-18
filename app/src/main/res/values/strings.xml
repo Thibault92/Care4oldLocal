@@ -1,0 +1,268 @@
+<resources>
+
+    <string name="app_name">Care 4 Old</string>
+
+    <string name ="title_activity_account_connection">Care4Old</string>
+    <string name="title_activity_create_account_first_part">Care4Old: Création de compte (1/3)</string>
+    <string name="title_activity_create_account_second_part">Care4Old: Création de compte (2/3)</string>
+    <string name="title_activity_create_account_third_part">Care4Old: Création de compte (3/3)</string>
+    <string name="title_activity_doctor_profile">Votre Profil Médecin</string>
+    <string name="title_activity_patient_list_adapter">PatientListAdapter</string>
+    <string name="title_activity_create_account_patient">Lien vers votre médecin</string>
+    <string name="title_activity_hospitalization">Hospitalisations</string>
+    <string name="title_activity_hospitalization_creation">Ajout d\'une Hospitalisation</string>
+    <string name="title_activity_medical_check_creation">Analyse médicale classique</string>
+    <string name="title_activity_medical_check">Consultations du patient</string>
+    <string name="title_activity_consult_medical_check">Détails de la consultation</string>
+    <string name="title_activity_link_to_patient">Nouveau patient</string>
+    <string name="title_activity_patient_profile">Profil Patient</string>
+    <string name="title_activity_patient_questionnary">Questionnaire</string>
+    <string name="title_activity_consult_norton">Norton Tests</string>
+    <string name="title_activity_consult_katz">Katz Tests</string>
+    <string name="title_activity_consult_lawton">Lawton Tests</string>
+    <string name="title_activity_consult_mna">MNA Tests</string>
+    <string name="title_activity_consult_fragility">Fragility Tests</string>
+    <string name="title_activity_comorbidities">Comorbidities</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="familyName">Nom :</string>
+    <string name="familyNameInput">Jean</string>
+    <string name="firstName">Prénom:</string>
+    <string name="firstNameInput">Dupont</string>
+    <string name="password">Mot de passe</string>
+    <string name="passwordInput">Mot de passe</string>
+    <string name="confirmationPassword">Confirmez:</string>
+    <string name="confirmationPasswordInput">Confirmez</string>
+    <string name="birthday">Date de naissance :</string>
+    <string name="birthdayPicker"> <u>Cliquez</u> </string>
+    <string name="address">Adresse :</string>
+    <string name="addressInput">2 rue Gallieni</string>
+    <string name="zip">Code Postal:</string>
+    <string name="zipInput">75006</string>
+    <string name="city">Ville:</string>
+    <string name="cityInput">Paris</string>
+    <string name="homeTel">Tél. fixe:</string>
+    <string name="homeTelInput">0122334455</string>
+    <string name="mobileTel">Tél. portable:</string>
+    <string name="mobileTelInput">0611223344</string>
+    <string name="emergencyTel">Tél d\'urgence:</string>
+    <string name="emergencyTelInput">0133445566</string>
+    <string name="gender">Vous êtes:</string>
+    <string name="male">Un Homme</string>
+    <string name="female">Une Femme</string>
+    <string name="status">Statut:</string>
+    <string name="married">Marié(e)</string>
+    <string name="single">Célibataire</string>
+    <string name="veuf">Veuf/Veuve</string>
+    <string name="divorced">Divorcé(e)</string>
+    <string name="partner">Partenaire</string>
+    <string name="dejaInscrit"> <u>J\'ai déjà un compte</u> </string>
+    <string name="send">Valider</string>
+    <string name="raz">Réinit.</string>
+    <string name="retour">Retour</string>
+    <string name="suivant">Suivant</string>
+
+    <string name="titreConnexion">Care4Old: Connexion</string>
+    <string name="identifiant">Email</string>
+    <string name="identifiantInput">jdupont@gmail.com</string>
+    <string name="pasInscrit"> <u>Je n\'ai pas encore de compte</u> </string>
+
+    <string name="residency">Résidence : </string>
+    <string name="pavillon">Pavillon</string>
+    <string name="apartment">Appartement</string>
+    <string name="foyer">Foyer</string>
+    <string name="rpa">RPA</string>
+    <string name="ehpad">EHPAD</string>
+    <string name="adoma">Foyer Adoma</string>
+    <string name="financial">Aide Financière</string>
+    <string name="ouifinancier">Oui</string>
+    <string name="nonfinancier">Non</string>
+    <string name="domicileHelp">Aide à Domicile</string>
+    <string name="ouidomicile">Oui</string>
+    <string name="nondomicile">Non</string>
+    <string name="userType">Vous êtes:</string>
+    <string name="patient">Un patient</string>
+    <string name="medecin">Un médecin</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="add">Ajouter patient</string>
+    <string name="patients">Mes patients</string>
+    <string name="delete">Delete</string>
+    <string name="liste_de_patients">Mes patients:</string>
+    <string name="find_patient">Trouver Patient</string>
+    <string name="recherche_patient">Rechercher un patient:</string>
+    <string name="emailMedecin">Email de votre médecin</string>
+    <string name="title_activity_hospitalisation">Hospitalisation</string>
+
+    <string name="hospStart">Date d\'entrée:</string>
+    <string name="hospEnd">Date de sortie:</string>
+    <string name="choisir_date">Choisir</string>
+    <string name="date_affichage">dd/MM/yyyy</string>
+    <string name="motif">Motif:</string>
+    <string name="motifInput">Malaise</string>
+    <string name="hosps">Liste d\'Hospitalisations</string>
+    <string name="add_hosp">Ajouter Hospitalisation</string>
+
+    <string name="taille">Taille (cm):</string>
+    <string name="tailleInput">160</string>
+    <string name="poids">Poids (kg):</string>
+    <string name="poidsInput">65</string>
+    <string name="imc">IMC:</string>
+    <string name="mna">Echelle MNA:</string>
+    <string name="mnaInput">25</string>
+    <string name="albuminemie">Albuminémie (g/L):</string>
+    <string name="albuminemieInput">45</string>
+    <string name="crp">CRP (mg/L):</string>
+    <string name="crpInput">5</string>
+    <string name="vitd">Vitamine D (ng/mL):</string>
+    <string name="vitdInput">40</string>
+    <string name="diagnostic">Diagnostic:</string>
+    <string name="diagnosticInput">Angine</string>
+    <string name="medchecks">Dernières consultations</string>
+    <string name="add_medcheck">Ajouter consultation</string>
+
+    <string name="infosDetaillees">Informations:</string>
+    <string name="date_medcheck">Date de la consultation:</string>
+    <string name="emailPatient">Email du patient:</string>
+    <string name="emailPatientInput">identifiant@mail.fr</string>
+
+    <string name="Question">Questionnaire de Santé</string>
+    <string name="send_Questionnary">Envoyer</string>
+    <string name="back_profile">Annuler</string>
+
+    <string name="titleProfilePatient">Profil Patient</string>
+    <string name="infosProfilePatient">Informations Personnelles</string>
+    <string name="testProfilePatient">Echelle Evaluation Gériatrie</string>
+    <string name="medicalCheckProfilePatient">Informations Médicales</string>
+
+    <string name="profileTextGender">Genre :</string>
+    <string name="profileTextPhones">Téléphones :</string>
+    <string name="profileTextEmergency">Urgence :</string>
+    <string name="profileTextDoctor">Médecin :</string>
+    <string name="profileFinancial">Aide Financière - </string>
+    <string name="profileDomicileHelp">Aide à Domicile - </string>
+    <string name="profileTest_Norton"><u>Norton</u> :</string>
+    <string name="profileTest_Lawton"><u>Lawton</u>  :</string>
+    <string name="profileTest_MNA"><u>MNA</u> :</string>
+    <string name="profileTest_Katz"><u>Katz</u> :</string>
+    <string name="profileTest_Fragility"><u>Fragilité</u> :</string>
+    <string name="profileTest_Date">Dernier Test effectué le</string>
+    <string name="profileMakeTest">Faire Nouveau Test</string>
+    <string name="profileTextWeight">Poids :</string>
+    <string name="profileTextHeight">Taille :</string>
+    <string name="profileTextBMI">IMC :</string>
+    <string name="profileTextVitamine">Vitamine D :</string>
+    <string name="profileTextPressure">Pression Artérielle :</string>
+    <string name="profileTextCRP">Taux CRP :</string>
+    <string name="profileTextAlbumin">Taux Albumin :</string>
+    <string name="profileTextDateConsultation">Dernière Consultation le</string>
+    <string name="profileTextComorbidities">Dernière Comorbidité:</string>
+    <string name="profileTextHospitalisation">Dernière Hospitalisation :</string>
+    <string name="profileTexttMotifHospitalisation">Motif :</string>
+    <string name="profileToMedicalCheck">Consultations</string>
+    <string name="profileToComorbidities">Comorbidités</string>
+    <string name="profileToHospitalisation">Hospitalisation</string>
+    <string name="profileToDoctor">Retour Page Médecin</string>
+    <string name="profileDeconnexion">Déconnexion</string>
+
+    <string name="titleNortonPatient">Tests Norton</string>
+    <string name="nortonTextGlobal">Global :</string>
+    <string name="nortonTextAgility">Agilité :</string>
+    <string name="nortonTextPsychic">Pyschologique :</string>
+    <string name="nortonTextIncontinence">Incontinence :</string>
+    <string name="nortonTextMobility">Mobilité :</string>
+    <string name="NortonBareme1">Total &lt; 14 - risque élevé</string>
+    <string name="NortonBareme2">Total &#8805; 14 - risque bas</string>
+
+    <string name="titleKatzPatient">Tests Katz</string>
+    <string name="KatzTextHygiene">Hygiene :</string>
+    <string name="KatzTextDressing">Vetir :</string>
+    <string name="KatzTextBathroom">Lavage :</string>
+    <string name="KatzTextIncontinence">Incontinence :</string>
+    <string name="KatzTextMobility">Locomotion :</string>
+    <string name="KatzTextLunch">Déjeuner :</string>
+    <string name="KatzBareme1">Total &lt; 3 - Dépendant</string>
+    <string name="KatzBareme2">Total &#8805; 3 - Autonome</string>
+
+    <string name="titleLawtonPatient">Tests Lawton</string>
+    <string name="LawtonTextPhone">Téléphone :</string>
+    <string name="LawtonTextGrowshop">Courses Alimentaire :</string>
+    <string name="LawtonTextCook">Cuisine :</string>
+    <string name="LawtonTextClean">Ménage / Entretient :</string>
+    <string name="LawtonTextLaundry">Lavage / Repassage :</string>
+    <string name="LawtonTextTransport">Déplacement / Transport :</string>
+    <string name="LawtonTextDrugs">Prise Médicament :</string>
+    <string name="LawtonTextMoney">Gestion Argent :</string>
+    <string name="LawtonBareme1">Total &#8804; 3 - Dépendant</string>
+    <string name="LawtonBareme2">Total &gt; 3 - Autonome</string>
+
+    <string name="titleMnaPatient">Tests Mna</string>
+    <string name="MnaTextAppetite">Hygiene :</string>
+    <string name="MnaTextLooseWeight">Vetir :</string>
+    <string name="MnaTextMotricity">Lavage :</string>
+    <string name="MnaTextAcute">Incontinence :</string>
+    <string name="MnaTextNeuro">Locomotion :</string>
+    <string name="MnaTextBmi">Déjeuner :</string>
+    <string name="MnaBareme1">Total &#8804; 7 - dénutrition avérée</string>
+    <string name="MnaBareme2"> 7 &lt; Total &#8804; 11 - risque</string>
+    <string name="MnaBareme3">Total &gt; 11 - nutrition normale</string>
+
+    <string name="titleFragilityPatient">Tests Fragilité</string>
+    <string name="FragilityTextHome">Domicile :</string>
+    <string name="FragilityTextDrugs">Prise Médicament :</string>
+    <string name="FragilityTextMood">Humeur :</string>
+    <string name="FragilityTextPerception">Perception :</string>
+    <string name="FragilityTextFall">Indice Chute :</string>
+    <string name="FragilityTextResponsability">Responsabilité :</string>
+    <string name="FragilityTextIllness">Indice Maladie :</string>
+    <string name="FragilityTextMobility">Déplacement / Transport :</string>
+    <string name="FragilityTextContinence">Incontinence :</string>
+    <string name="FragilityTextFeed">Indice Appetit :</string>
+    <string name="FragilityTextCognitive">Etat Psychologique :</string>
+    <string name="FragilityBareme1">Total &#8804; 8 - peu fragile</string>
+    <string name="FragilityBareme2"> 8 &lt; Total &#8804; 11 - fragile</string>
+    <string name="FragilityBareme3">Total &gt; 11 - très fragile</string>
+
+    <string name="Bareme"><u>Bareme</u></string>
+    <string name="titleTests">Total : </string>
+    <string name="testNortonDetail">Détail</string>
+    <string name="testNortonDelete">SUPPR</string>
+    <string name="TextTotal">Total :</string>
+    <string name="TextDate">Date :</string>
+    <string name="backProfilePatient">Retour Profil Patient</string>
+    <string name="backProfilePatientShort">Retour Profil</string>
+    <string name="listeTests">Anciens Tests du Patient</string>
+
+    <string name="titleComorbidities">Comorbidités </string>
+    <string name="ComorbiditiesPathology">Choisir votre pathologie :</string>
+    <string name="ComorbiditiesPathologyText">Pathologie :</string>
+    <string name="titleListeComorbidities">Anciennes Comorbidités :</string>
+    <string name="addComorbidities">Ajouter Comorbidité</string>
+
+    <string-array name="comorbidities_array">
+        <item>Démence</item>
+        <item>MCI</item>
+        <item>Séquelle AVC</item>
+        <item>Syndrome Parkinson</item>
+        <item>Pathologie Psychiatrique</item>
+        <item>Trouvles équilibre</item>
+        <item>Hypertension Artérielle</item>
+        <item>Hypertension Orthostatique</item>
+        <item>Maladie Cardiovasculaire</item>
+        <item>Angor</item>
+        <item>Insuffisance Cardique</item>
+        <item>Artérite de membre inférieurs</item>
+        <item>Etat Cancéreux</item>
+        <item>Diabète</item>
+        <item>Insuffisance rénale</item>
+        <item>Anémie</item>
+        <item>Alcool</item>
+        <item>Tabac</item>
+        <item>BPCO</item>
+        <item>Oxygénothérapie</item>
+        <item>SAS Appareillé</item>
+        <item>Troubles Podologiques</item>
+        <item>Troubles Visuels</item>
+    </string-array>
+
+</resources>

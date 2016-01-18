@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <TextView
+        android:id="@+id/titleLawtonPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/titleLawtonPatient"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#006699"/>
+
+    <TextView
+        android:id="@+id/LawtonTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleLawtonPatient"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/LawtonTextPhone"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleLawtonPatient"
+        android:layout_toRightOf="@+id/LawtonTextPhone"
+        android:layout_toEndOf="@+id/LawtonTextPhone"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonBareme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleLawtonPatient"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:text="@string/Bareme"
+        android:textColor="#006699"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/LawtonTextGrowshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonPhone"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/LawtonTextGrowshop"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonGrowshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonPhone"
+        android:layout_toRightOf="@+id/LawtonTextGrowshop"
+        android:layout_toEndOf="@+id/LawtonTextGrowshop"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/LawtonTextCook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonGrowshop"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/LawtonTextCook"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonCook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonGrowshop"
+        android:layout_toRightOf="@+id/LawtonTextCook"
+        android:layout_toEndOf="@+id/LawtonTextCook"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonBareme1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonGrowshop"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/LawtonBareme1"
+        android:textColor="#006699"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonTextClean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonCook"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/LawtonTextClean"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonClean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonCook"
+        android:layout_toEndOf="@+id/LawtonTextClean"
+        android:layout_toRightOf="@+id/LawtonTextClean"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonBareme2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonCook"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/LawtonBareme2"
+        android:textColor="#006699"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonTextLaundry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonClean"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/LawtonTextLaundry"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonLaundry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonClean"
+        android:layout_toRightOf="@+id/LawtonTextLaundry"
+        android:layout_toEndOf="@+id/LawtonTextLaundry"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonTextTransport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonLaundry"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/LawtonTextTransport"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonTransport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonLaundry"
+        android:layout_toRightOf="@+id/LawtonTextTransport"
+        android:layout_toEndOf="@+id/LawtonTextTransport"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonTextDrugs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonTransport"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/LawtonTextDrugs"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonDrugs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonTransport"
+        android:layout_toRightOf="@+id/LawtonTextDrugs"
+        android:layout_toEndOf="@+id/LawtonTextDrugs"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonTextMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonDrugs"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/LawtonTextMoney"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonDrugs"
+        android:layout_toRightOf="@+id/LawtonTextMoney"
+        android:layout_toEndOf="@+id/LawtonTextMoney"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/LawtonTextTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonMoney"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/TextTotal"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonMoney"
+        android:layout_toRightOf="@+id/LawtonTextTotal"
+        android:layout_toEndOf="@+id/LawtonTextTotal"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonTotal"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/TextDate"
+        android:textColor="#b5000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LawtonDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonTotal"
+        android:layout_toRightOf="@+id/LawtonTextDate"
+        android:layout_toEndOf="@+id/LawtonTextDate"
+        android:textColor="#f0032687"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/LawtonBackProfilePatient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonDate"
+        android:layout_centerInParent="true"
+        android:text="@string/backProfilePatient"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+
+    <TextView
+        android:id="@+id/titleListeLawtonTests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LawtonBackProfilePatient"
+        android:text="@string/listeTests"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#006699"/>
+
+    <ListView
+        android:id="@+id/listeOfLawton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleListeLawtonTests">
+    </ListView>
+
+</RelativeLayout>
